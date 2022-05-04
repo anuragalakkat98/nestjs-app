@@ -4,7 +4,7 @@ import { Controller, Get, Post, Put } from "@nestjs/common";
 export class StudentController {
     @Get()
     getStudents() {
-        return "All students"
+        return "Show all students"
     }
 
     @Get('/:studentId')
